@@ -54,32 +54,15 @@ You can explore the interactive visualizations and full notebook here:
 
 ## 🧩 Repository Structure
 
-global-PM-2.5-next-day-forecasting/
+```global-PM-2.5-next-day-forecasting/
 │
-├── data/ # Raw and processed datasets (not pushed due to size)
-├── docs/ # HTML outputs for GitHub Pages
-│ ├── index.html
-│ └── notebook.html
+├── data/                     # Raw and processed datasets (not pushed due to size)
+├── docs/                     # HTML outputs for GitHub Pages
+│   ├── index.html
+│   └── notebook.html
 │
-├── global-analysis-next-day-pm2-5-ml.ipynb # Kaggle notebook
-├── requirements.txt # Environment dependencies
-└── README.md # Project documentation
+├── global-analysis-next-day-pm2-5-ml.ipynb   # Kaggle notebook
+├── requirements.txt           # Environment dependencies
+└── README.md                  # Project documentation
 
 
----
-
-## ⚙️ Setup Instructions
-
-To run locally:
-
-```bash
-git clone https://github.com/kapil2020/global-PM-2.5-next-day-forecasting.git
-cd global-PM-2.5-next-day-forecasting
-pip install -r requirements.txt
-jupyter notebook global-analysis-next-day-pm2-5-ml.ipynb
-
-
-🧾 License
-
-This project is released under the MIT License
-.
